@@ -15,7 +15,7 @@ const shortenUrl = async () => {
   const reqBody = {
     longUrl: longUrl
   };
-  const response = await fetch(`http://127.0.0.1:5000/api/url/shorten`, {
+  const response = await fetch(`https://longurlapi.onrender.com/api/url/shorten`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
